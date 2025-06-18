@@ -639,6 +639,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mms@1.6-impl \
     vendor.mediatek.hardware.nvram@1.1-impl \
     vendor.mediatek.hardware.pq@2.15-impl \
+    vendor.mediatek.hardware.videotelephony@1.0-impl \
     vulkan.mali \
     imx350_mipi_raw_IdxMgr \
     imx350_mipi_raw_tuning \
@@ -1511,6 +1512,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.7 \
     vendor.mediatek.hardware.pq@2.8 \
     vendor.mediatek.hardware.pq@2.9 \
+    vendor.mediatek.hardware.videotelephony@1.0_vendor \
     vendor.oplus.hardware.commondcs@1.0 \
     sound_trigger.primary.default \
     libAVCSecureVencCA \
@@ -1551,7 +1553,6 @@ PRODUCT_PACKAGES += \
     sensors.mt6781 \
     vendor.mediatek.hardware.camera.ccap@1.0-impl \
     vendor.mediatek.hardware.camera.lomoeffect@1.0-impl \
-    vendor.mediatek.hardware.videotelephony@1.0-impl \
     vendor.oplus.hardware.cameraextension@1.0-service-impl \
     lbs_hidl_service-impl \
     libDR \
@@ -1650,7 +1651,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkradioex@3.0 \
     vendor.mediatek.hardware.power@1.1 \
     vendor.mediatek.hardware.power@2.0 \
-    vendor.mediatek.hardware.videotelephony@1.0_vendor \
     vendor.oplus.hardware.cameraextension@1.0 \
     vendor.oplus.hardware.cammidasservice@1.0 \
     vendor.oplus.hardware.radio-V1-ndk_platform_vendor \
@@ -1663,7 +1663,7 @@ PRODUCT_PACKAGES += \
     libmtk_vt_service \
     libmtk_vt_wrapper \
     libsignal \
-    libsink \
+    libsink-mtk \
     libsource \
     libvcodec_cap \
     libvcodec_capenc \
@@ -1740,19 +1740,12 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.commondcs@1.0_odm \
     EngineerMode \
     ImsService \
-    HotwordEnrollmentOKGoogleCORTEXM4 \
-    mediatek-carrier-config-manager \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
     mediatek-ims-common \
     mediatek-ims-extension-plugin \
     mediatek-services \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-base \
-    mediatek-telephony-common \
-    com.android.hotwordenrollment.common.util \
     android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml \
     android.hardware.usb@1.2-service-mediatekv2.xml \
     gnss-mtk.xml \
